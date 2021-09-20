@@ -6,17 +6,13 @@ A CLI for vigenere.
 
 Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
 
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
+## Commands
 
 ```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
+$ vigenere
+$ vigenere -h
+$ vigenere -v
+$ vigenere decrypt <file_path> <common_char> --language=(en|pt)
 ```
 
 # License

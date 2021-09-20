@@ -99,7 +99,7 @@ function calculateKey(substringsArray, commonChar) {
   let frequentCharsArray = []
   substringsArray.forEach((substring, index) => {
     frequentCharsArray.push(getFrequentLetter(substring))
-    const charDisplacement =
+    let charDisplacement =
       alphabet.indexOf(frequentCharsArray[index]) - alphabet.indexOf(commonChar)
 
     if (charDisplacement < 0) charDisplacement += alphabet.length
