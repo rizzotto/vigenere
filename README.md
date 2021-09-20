@@ -6,6 +6,9 @@ A CLI for vigenere.
 
 Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
 
+## Setup
+`npm link` or `yarn link`
+
 ## Commands
 
 ```shell
